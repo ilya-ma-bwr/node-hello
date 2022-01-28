@@ -7,6 +7,8 @@ pipeline {
                 sh 'pwd'
                 sh 'ls -lsa'
                 sh 'node --version'
+                sh 'npm init'
+                sh 'npm install --save lodash'
             }
         }
     }
