@@ -3,6 +3,9 @@ pipeline {
     stages {
         stage('build') {
             steps {
+                sh 'whoami'
+                sh 'pwd'
+                sh 'ls -lsa'
                 sh 'node --version'
             }
         }
